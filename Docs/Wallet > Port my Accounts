@@ -1,0 +1,32 @@
+Wallet > Port my Accounts
+
+User Story
+
+As an end user I must have the ability to merge all/some of my accounts into a new account resulting in better savings (Higher AER%).
+
+Technical Tasks
+
+On server side
+
+Task 1: Implementation of an API to recursively trigger a third party target OB system (db-service) to make transaction to a single account.
+
+Task 2: Implementation of an API to make account level processing to close the accounts.
+
+Task 3: Unit testing/Integration testing.
+
+UI side
+
+Task 1: Develop screen for Merge Account where user can select accounts which he want to merge and to which they need to be merged.
+
+Task 2 : Screen for user to select whether he wants to merge into existing account or new LBG account.
+
+Task 3 : Integrating screen with back end services
+
+Task 4: Preview screen for user confirmation for accounts transfer.
+
+Task 5: Unit Testing
+
+portMyaccounts_screenshot.png
+portMyaccounts_screenshot1.png
+portMyaccounts_screenshot2.png
+portMyaccounts_screenshot3.png

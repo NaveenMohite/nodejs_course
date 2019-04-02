@@ -1,0 +1,25 @@
+Wallet > Advisory Page
+
+User Story
+
+User should be navigated to an advisory page displaying
+
+Available funds
+
+Forecasted expenses for the month.
+
+Forecasted income for the month.
+
+Investment advice.
+
+Technical Task
+
+Task 1: Develop screen for advisory page where user can view the Forecasted expense, Forecasted income and available cash.
+
+Task 2 : Data should be taken from the DB file.
+
+Task 3 : Integrating screen with back end services
+
+Task 4: Unit Testing.
+
+advisory_screenshot.png

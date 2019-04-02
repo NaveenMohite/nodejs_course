@@ -1,0 +1,32 @@
+Wallets > Manage Payment Instructions
+
+User Story
+
+Customer should be able to manage funds between his accounts so as to serve all the Standing Instructions. When a user has insufficient funds in his debit account to serve the Standing instructions, Optima should help optimize by recommending the transfer of funds from one of the other accounts of the user which has surplus funds. This action can be initiated by the user
+
+Navigating to Wallets
+
+Select the account which as insufficient funds
+
+Click on Optimize and select Manage my Payment Instructions option.
+
+Technical Tasks
+
+On server side
+
+Task 1: Implementation of an API to make transaction from one account to another account to meet the required payment instruction.
+
+Task 2: Unit testing/Integration testing.
+
+UI side
+
+Task 1: Develop screen for payment instruction where user can view the source and destination account from which is money is transferred from and to.
+
+Task 2 : Develop the screen to show the successful transaction.
+
+Task 3 : Integrating screen with back end services
+
+Task 4: Unit Testing
+
+paymentInstruction_screenshot.png
+paymentInstruction_screenshot1.png

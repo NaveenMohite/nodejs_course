@@ -1,0 +1,44 @@
+Payout Recommendation
+
+
+User Story
+
+As an end user, the Payout plan must be recommended to me, considering the below factors:
+
+Payout Mortgage first
+
+Consider standing Instructions
+
+Consider Minimum balance before paying off
+
+Always payout from an account with least AER %
+
+Always Payoff the Credit card which is charging Maximum APR %
+
+This should result in maximizing savings and minimize the payout.
+
+Two use cases need to be considered,
+
+a. When the customer has enough money to service all his credits.
+
+b. When the customer has not enough funds to service his credits.
+
+Technical Tasks
+
+a. Implementation of an API to make the payment from the Debit account to the Credit account.
+
+b. The payout logic should be developed according the logic mentioned above.
+
+c. Currently, no DB is unavailable. When available, reflect the changes in the DB.
+
+d. Make the request from the Front end to update the outstanding balance in the UI.
+
+e. Unit test the end point.
+
+f. Use this end point for payout - http://localhost:3002/payOutPlanService
+
+
+
+
+
+

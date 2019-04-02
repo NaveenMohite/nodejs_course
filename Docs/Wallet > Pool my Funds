@@ -1,0 +1,25 @@
+Wallet > Pool my Funds
+
+User Story
+
+As and end user I need my application to ensure it considers keeping minimum balance, Standing Instructions, Mortgage payments etc., before transferring underutilized funds to the account which doesn't have sufficient funds.
+
+Technical Tasks
+
+On Server side
+
+Task 1: Implementation of an API to trigger a third party target OB system (db-service) to make the transaction.
+
+Task 2: Unit testing/Integration testing.
+
+On UI side
+
+Task 1: Develop screen for Merge Funds where user can select accounts fro which he want to transfer funds and to which the funds need to be transferred.
+
+Task 2 : Preview screen for user to confirm the fund transfer.
+
+Task 3 : Integrating screen with backend services
+
+Task 4: Unit Testing
+
+ONJP-24_APIQA.zip
